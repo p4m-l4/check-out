@@ -1,15 +1,14 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Image from 'react-bootstrap/Image';
 
 const Navbar1 = () => {
     return ( 
         <div>
-            <Navbar bg="light" expand="lg">
+            <Navbar  expand="lg" style={{backgroundColor: 'rgb(159, 44, 163)'}}>
       <Container>
-        <Navbar.Brand href="/">DusuPay</Navbar.Brand>
+        <Navbar.Brand href="/" style={{color: 'white'}}>DusuPay</Navbar.Brand>
         
       </Container>
     </Navbar>

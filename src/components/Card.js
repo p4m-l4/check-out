@@ -9,7 +9,8 @@ const Card = () => {
             <div>
             
             <Form style={{margin: 150, marginTop: 50,  marginBottom: 100, width: 600, marginLeft: 650}}>
-            <h3 style={{textAlign: 'center',  marginBottom: 80}}>Card</h3>
+            <h3 style={{textAlign: 'center',  marginBottom: 50}}>Card</h3>
+            <div style={{borderRadius: 15, borderColor: 'lightgrey', borderWidth: 1, borderStyle: 'ridge', padding: 50}}>
             <Row>
                 <Col>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -92,6 +93,7 @@ const Card = () => {
             <Button style={{marginTop: 30}} variant="primary" type="submit">
                 Submit
             </Button>
+            </div>
             </Form>
         </div>
         </>

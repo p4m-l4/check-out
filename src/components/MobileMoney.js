@@ -7,8 +7,9 @@ const MobileMoney = () => {
         <>
         <div>
             
-            <Form style={{margin: 150, marginTop: 50,  marginBottom: 100, width: 350, marginLeft: 800}}>
-            <h3 style={{textAlign: 'center',  marginBottom: 80}}>Mobile Money</h3>
+            <Form style={{margin: 150, marginTop: 50,  marginBottom: 100, width: 400,  borderRadius: 15, borderColor: 'lightgrey', borderWidth: 1, marginLeft: 750}}>
+            <h3 style={{textAlign: 'center',  marginBottom: 50}}>Mobile Money</h3>
+            <div style={{borderRadius: 15, borderColor: 'lightgrey', borderWidth: 1, borderStyle: 'ridge', padding: 50}}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Amount</Form.Label>
                 <Form.Control type="number" placeholder="Enter amount" />
@@ -33,6 +34,7 @@ const MobileMoney = () => {
             <Button style={{marginTop: 30}} variant="primary" type="submit">
                 Submit
             </Button>
+            </div>
             </Form>
         </div>
         </>
